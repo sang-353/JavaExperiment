@@ -94,7 +94,7 @@ public class PrintInfo {
 	private static String toDisplayString(PersonalInfo info) {
 		// 将解析结果格式化为自我介绍句子
 		return "大家好，我的名字叫sang，今年" + info.getAge() + "岁，性别：" + info.getSex()
-				+ "，目前就读于中南民族大学计算机学院计算机科学与技术专业，主要技能是：C、C++、Java、Python、后端开发、数据库技术等，"
+				+ "，目前就读于中南民族大学计算机学院计算机科学与技术专业，\n"+"主要技能是：C、C++、Java、Python、后端开发、数据库技术等，"
 				+ "兴趣爱好是：web开发、篮球、游戏、旅游。";
 	}
 }
